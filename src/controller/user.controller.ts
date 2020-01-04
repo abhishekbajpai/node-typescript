@@ -4,7 +4,7 @@ import { UserService } from '../services/user.service';
 
 @injectable()
 
-export class UserCommand {
+export class UserController {
     constructor(
         private userService: UserService
     ) { }

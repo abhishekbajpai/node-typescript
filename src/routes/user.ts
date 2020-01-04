@@ -1,7 +1,7 @@
 import { injectable } from "inversify";
 import { iocContainer } from "../ioc-container";
 import { Router, Request, Response, NextFunction } from 'express';
-import { UserCommand }   from '../command/user.command';
+import { UserController }   from '../controller/user.controller';
 @injectable()
 
 export class UserRouter {
@@ -13,8 +13,8 @@ export class UserRouter {
     }
 
     public getAll(req:Request, res: Response, next: NextFunction){
-        const userCommand = iocContainer.get<UserCommand>(UserCommand);
-        userCommand.validateUserCredentials(req, res);
+        const userController = iocContainer.get<UserController>(UserController);
+        userController.validateUserCredentials(req, res);
     }
 
     init(){
