@@ -5,13 +5,17 @@ Developing Restful api using Node + Express and TypesScript.
 
 We will be using:
 
-# NodeJS v8 or higher
-# ExpressJS v4 
-# TypeScript v2
+**NodeJS v8 or higher**
 
-To run a project in your local, once you are done with cloning of repo run: 
+**ExpressJS v4**
 
-# npm run start 
+**TypeScript v2**
+
+Once you clone a project, run below command to start: 
+
+**npm install**
+
+**npm run start**
 
 your server will start running at port 3000
 
