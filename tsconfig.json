@@ -64,6 +64,6 @@
     "emitDecoratorMetadata": true         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "include": [
-    "src/**/*", "../spinach/menu.service.ts", "../spinach/schema", "../spinach/menu.repository.ts", "../spinach/menu.command.ts"
+    "src/**/*"
   ]
 }
